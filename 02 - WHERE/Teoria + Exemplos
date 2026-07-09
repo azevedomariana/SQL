@@ -1,1 +1,12 @@
 # WHERE
+O comando `Where`' é usado para filtrar dados, permitindo que você retorne apenas linhas específicas que atendam a condições pré-definidas.
+
+## Sintaxe
+
+``` sql
+SELECT *
+FROM person.person
+WHERE LastName = 'wood';
+```
+O código irá retornar apenas as linhas que contém o sobrenome 'Wood'. E nesse caso, todas as colunas são retornadas.
+
