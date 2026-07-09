@@ -1,1 +1,31 @@
--- Utilizado para consultar e recuperar dados em um banco de dados.
+# SELECT
+
+O comando `SELECT` é utilizado para consultar e recuperar dados de um banco de dados. 
+Ele permite extrair informações específicas ou retornar todas as colunas de uma ou mais tabelas.
+
+## Sintaxe
+
+```sql
+SELECT coluna1, coluna2
+FROM tabela;
+```
+
+Para retornar todas as colunas da tabela:
+
+```sql
+SELECT *
+FROM tabela;
+```
+
+---
+
+# SELECT DISTINCT
+
+O comando `SELECT DISTINCT` é utilizado para eliminar valores duplicados de uma consulta, retornando apenas valores únicos.
+
+## Sintaxe
+
+```sql
+SELECT DISTINCT coluna1
+FROM tabela;
+```
