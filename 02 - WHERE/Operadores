@@ -21,7 +21,7 @@ FROM Tabela;
 WHERE Coluna1 = 'Condição1' or Coluna1 = 'Condição2'
 ```
 
-## Exemplo
+## Exemplos
 
 SELECT *
 FROM production.Product
