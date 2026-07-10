@@ -1,0 +1,24 @@
+# COUNT
+
+calcula o número de linhas ou registros que atendem a um determinado critério. Ela pode contar todas as linhas (incluindo valores nulos) ou apenas os valores não nulos de uma coluna específica.
+
+## Sintaxe
+
+```sql
+SELECT COUNT (*)
+FROM Tabela;
+```
+Retorna o número de linhas da tabela
+
+## Exemplos
+
+SELECT count(DISTINCT Title)
+FROM person.person
+
+Retorna os diferentes valores, na coluna Title. Nesse caso, retornou 6. Inserindo o distinct, não são contabilizados os valores que se repetem.
+
+SELECT count(Size)
+FROM production.Product
+
+Retorna a quantidade de tamanhos de produtos cadastrados na tabela. Nesse caso, retornou 211. Os valores que se repetem são contabilizados.
+
