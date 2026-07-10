@@ -29,3 +29,14 @@ WHERE color = 'blue' or color = 'black'
 
 O código irá retornar apenas as linhas que contém as cores 'Blue' ou 'Black'. E nesse caso, todas as colunas são retornadas.
 
+SELECT *
+FROM production.Product
+WHERE ListPrice > 1500 and ListPrice < 5000
+
+O código irá retornar apenas as linhas que contém os valores de Preço maiores do que 1500 e menores do que 5000. E nesse caso, todas as colunas são retornadas.
+
+SELECT MaritalStatus, SalariedFlag, JobTitle
+FROM HumanResources.Employee
+WHERE MaritalStatus = 'm'and SalariedFlag = 1
+
+O código irá retornar apenas as linhas onde o status de relacionamento é "Casado = M" e Assalariados = 1. Neste exemplos, apenas as 3 colunas citadas serão retornadas.
