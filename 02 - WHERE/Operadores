@@ -1,0 +1,31 @@
+# Operadores
+
+São símbolos ou palavras-chave usados para filtrar, calcular ou comparar dados dentro de um banco de dados. 
+Eles são aplicados principalmente na cláusula WHERE para restringir os resultados de uma consulta.
+
+## Exemplos de Operadores
+
+/*
+( = )   igual
+( > )   Maior que | ( >= ) Maior igual que
+( < )   Menor que | ( <= ) Menor igual que
+( <> )  Diferente de 
+( AND ) Operador lógico E
+( OR ) Operador lógico OU
+*/
+
+## Sintaxe 
+```sql
+SELECT *
+FROM Tabela;
+WHERE Coluna1 = 'Condição1' or Coluna1 = 'Condição2'
+```
+
+## Exemplo
+
+SELECT *
+FROM production.Product
+WHERE color = 'blue' or color = 'black'
+
+O código irá retornar apenas as linhas que contém as cores 'Blue' ou 'Black'. E nesse caso, todas as colunas são retornadas.
+
